@@ -1,15 +1,18 @@
+(() => {
 
 
-let isSuperman:boolean = true;
-let isBatman:boolean = false;
+    let isSuperman: boolean = true;
+    let isBatman: boolean = false;
 
-console.log({isBatman});
+    console.log({ isBatman });
 
-isSuperman = true && false;
+    isSuperman = true && false;
 
-console.log({isSuperman});
+    console.log({ isSuperman });
 
 
-// isSuperman = ( isBatman ) ? 'ABC' : 'XYZ';
-// isSuperman = ( isBatman ) ? true : 'false';
-isSuperman = ( isBatman ) ? true : false;
+    // isSuperman = ( isBatman ) ? 'ABC' : 'XYZ';
+    // isSuperman = ( isBatman ) ? true : 'false';
+    isSuperman = (isBatman) ? true : false;
+
+})();

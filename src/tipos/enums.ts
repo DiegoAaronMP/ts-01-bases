@@ -1,13 +1,16 @@
+(()=> {
 
 
-enum AudioLevel {
-    min = 1,
-    medium, // 2
-    max = 10
-}
+    enum AudioLevel {
+        min = 1,
+        medium, // 2
+        max = 10
+    }
 
-let currentAudio = AudioLevel.medium;
+    let currentAudio = AudioLevel.medium;
 
-console.log(currentAudio);
-console.log(AudioLevel);
+    console.log(currentAudio);
+    console.log(AudioLevel);
 
+
+})();
