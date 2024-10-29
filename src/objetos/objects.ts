@@ -8,16 +8,22 @@
         age: 24,
         powers: ['Súper velocidad', 'Viajar en el tiempo']
     }
- 
-    flash = {
-        name: 'Wally West',
-        age: 16,
-        powers: ['Lanzar rayos'],
-        getName(){
-            return this.name;
-        }
+    
+    let superman: { name: string, age?: number, powers: string[], getName?: () => string } = {
+        name: 'Clark Kent',
+        age: 31,
+        powers: ['Súper velocidad']
     }
+ 
+    // flash = {
+    //     name: 'Wally West',
+    //     age: 16,
+    //     powers: ['Lanzar rayos'],
+    //     getName(){
+    //         return this.name;
+    //     }
+    // }
 
-    console.log( flash.getName() );
+    // console.log( flash.getName() );
     
 })();
