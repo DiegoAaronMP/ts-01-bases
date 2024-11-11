@@ -5,6 +5,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "sourceMap": true, /* Para hacer debbug */
 
     /* Bundler mode */
     "moduleResolution": "bundler",
