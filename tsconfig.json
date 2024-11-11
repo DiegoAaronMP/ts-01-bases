@@ -22,4 +22,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
+  // "exclude": [
+    //  "objetos/*.ts" Excluir archivos o carpetas para que no se transpilen
+  // ]
 }
